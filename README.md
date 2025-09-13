@@ -26,10 +26,11 @@ def value_iteration(P, gamma=1.0, theta=1e-10):
     pi=lambda s:{s:a for s,a in enumerate(np.argmax(Q,axis=1))}[s]
     return V, pi
 ## OUTPUT:
+```
 <img width="733" height="173" alt="image" src="https://github.com/user-attachments/assets/fe2c8042-24be-4784-9ea1-3dcc63325b6a" />
 <img width="748" height="40" alt="image" src="https://github.com/user-attachments/assets/4b572593-0f55-417b-a20d-a607bfd2c788" />
 <img width="560" height="127" alt="image" src="https://github.com/user-attachments/assets/60bc0ac4-fa75-4168-9dca-67cf15b9f93c" />
-
+```
 ## RESULT:
 Thus, a Python program is developed to find the optimal policy for the given MDP using the value iteration algorithm.
 
